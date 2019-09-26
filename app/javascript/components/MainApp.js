@@ -10,6 +10,7 @@ class MainApp extends React.Component {
 
     return (
       <React.Fragment>
+      <h1>Apartments 4 You</h1>
         {logged_in &&
           <div>
             <a href={sign_out_route}>Sign Out</a>
